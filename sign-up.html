@@ -1,0 +1,374 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Online Shopping</title>
+
+	<link rel="stylesheet" type="text/css" href="js/scrolltop.js">
+	<link rel="shortcut icon" type="images/x-icon" href="images/logo/icon.PNG">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/owl.transitions.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="all" />
+
+	<style type="text/css">
+		.container:after{
+			display: block;
+			content: "";
+			clear: both;
+			
+		}
+		.container{
+			background: #4bb9f5cc;
+		}
+		.con-loging{
+			width: 50%;
+			float: left;
+			display: inline-block;
+		}
+		
+		.signup{
+			width: 100%
+			float: left;
+		}
+		.signup-left{
+			width: 30%;
+			float: left;
+			margin: 10px 0px;
+		}
+	
+		.signup-right{
+			width: 50%;
+			float: left;
+			margin: 10px 0px;
+			text-align: center;
+		}
+		.submit{
+			width:20%; 
+			float: left;
+		
+		}
+		.submit input{
+			background: #31658a;
+			color: #fff;
+			text-align: center;
+		}
+		.submit input:hover{
+			background: #ffa200;
+		}
+		.product{
+			float: left;
+			padding: 9px;
+			margin: 5px 8px;
+			margin-left: 13px
+		}
+		.product-dec a{
+			white-space: pre-wrap;
+		}
+		.footer-top{
+			width: 90%;
+			height: 225px;
+			
+			margin: auto;
+		}
+		.slideshow{
+			margin: 0 auto;
+			height: 225px;
+			background: skyblue;
+			box-sizing: border-box;
+		}
+		.footer-content{
+			margin: auto;
+			width: 190px;
+			perspective: 1000px;
+			position: relative;
+			padding-top: 80px;
+		}
+		.content-carrousel{
+			width: 100%;
+			position: absolute;
+			float: right;
+			animation: rotar 15s infinite linear;
+			transform-style: preserve-3d;
+			top: 20px;
+		}
+		.content-carrousel:hover{
+			animation-play-state: paused;
+			cursor: pointer;
+		}
+		.content-carrousel figure{
+			width: 100%;
+			height: 120px;
+			border:1px solid #4d444d;
+			overflow: hidden;
+			position: absolute;
+		}
+		.content-carrousel figure:nth-child(1){
+			transform: rotateY(0deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(2){
+			transform: rotateY(40deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(3){
+			transform: rotateY(80deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(4){
+			transform: rotateY(120deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(5){
+			transform: rotateY(160deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(6){
+			transform: rotateY(200deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(7){
+			transform: rotateY(240deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(8){
+			transform: rotateY(280deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(9){
+			transform: rotateY(320deg) translateZ(300px);
+		}
+		.shadow{
+			position: absolute;
+			box-shadow: 0px 0px 20px 0px #000;
+			border-radius: 2px;
+		}
+		.content-carrousel img{
+			image-rendering: auto;
+			transition: all 300ms;
+			width: 100%;
+			height: 100%;
+
+		}
+		.content-carrousel img:hover{
+			transform: scale(1.2);
+			transition: all 300ms; 
+		}
+		@keyframes rotar{
+			form{
+				transform: rotateY(0deg);
+			}
+			to{
+				transform: rotateY(360deg);
+			}
+		}
+
+
+		.footer ul li a{
+			font-size: 15px;
+		}
+	</style>
+	
+</head>
+<body>
+	<div class="header">
+		<div class="logo1">
+			<a href="index.html"><img src="images/logo/m5.png" alt="" /></a>
+		</div>
+		<div class="title">
+			<a href="index.html">All Kinds Of Online Shopping Gallery ,<h5>Joydebpur,Gazipur</h5></a>
+		</div>
+		<div class="logo2">
+			<div class="search" >
+				<input type="search" name="Search" placeholder="Search.....">
+				<button>Search</button>
+			</div>
+			<div class="loging">
+				<a href="Loging.html">LogIn</a>
+			</div>
+			
+		</div>
+	</div>
+	<div class="menu">
+		
+		<div class="res_menu">
+			<a href="#">|||</a>
+		</div>
+		<ul>
+			<li><a href="computer.html" target="blank">COMPUTER</a></li>
+			<li><a href="mobile-tablet.html" target="blank">MOBILE & TABLET</a>
+				<ul>
+					<li><a href="iPhone.html" target="blank">iPhone</a></li>
+					<li><a href="Samsung.html" target="blank">Samsung</a></li>
+					<li><a href="Nokia.html" target="blank">Nokia</a></li>
+					<li><a href="Huawei.html" target="blank">Huawei</a></li>
+					<li><a href="Xiaomi.html" target="blank">Xiaomi</a></li>
+					<li><a href="LAVA.html" target="blank">LAVA</a></li>
+					<li><a href="Lenovo.html" target="blank">Lenovo</a></li>
+					<li><a href="OPPO.html" target="blank">OPPO</a></li>
+					<li><a href="Symphony.html" target="blank">Symphony</a></li>
+				</ul>
+			</li>
+			<li><a href="electronic.html" target="blank">ELECTRONIC</a></li>
+			<li><a href="man.html">MEN FASHION</a>
+				<ul>
+					<li><a href="#" target="blank">T-SHIRT</a></li>
+					<li><a href="#" target="blank">PANTS</a></li>
+					<li><a href="#" target="blank">BAG</a></li>
+					<li><a href="#" target="blank">SHOE</a></li>
+					<li><a href="#" target="blank">WATCHES</a></li>
+					<li><a href="#" target="blank">PUNJABIS & PAJAMAS</a></li>
+				</ul>
+			</li>
+			<li><a href="woman.html" target="blank">WOMEN FASHION</a>
+				<ul>
+					<li><a href="#" target="blank">TUNIC</a></li>
+					<li><a href="#" target="blank">PANTS</a></li>
+					<li><a href="#" target="blank">BAG</a></li>
+					<li><a href="#" target="blank">SHOE</a></li>
+					<li><a href="#" target="blank">WATCHES</a></li>
+					<li><a href="#" target="blank">SAREE</a></li>
+					<li><a href="#" target="blank">SALWAR KAMEEZ</a></li>
+				</ul>
+			</li>
+			<li><a href="beauty.html" target="blank">BEAUTY & GROOMING</a></li>
+		</ul>
+		
+	</div>
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+		<script type="text/javascript">
+			jQuery('.res_menu').click(function(){
+			jQuery('.manu ul').slideToggle();
+			return false;
+			});
+		</script>
+	<div class="container">
+		<div class="product">
+					<div class="product-img">
+						<abbr title="xiaomi-notebook-6th-gen-i5"><img src="images/Elec/c3.png"></abbr>
+					</div>
+					<div class="product-dec">
+						<a href="view-image.html" target="blank">xiaomi-notebook-6th-gen-i5 If you are connected but behind a firewall, check that.</a>
+					</div>
+					<div id="price"> 
+						<p>৳45000.00</p>
+					</div>
+					<div id="card">
+						<a href="Loging.html" target="blank">Add To Card</a>
+					</div>
+				</div>
+
+		<div class="con-loging">
+			<fieldset>
+				<legend style="color: #224ad7e6; font-size: 22px;">Sign-Up Form</legend>
+				<form action="" >
+					<div class="signup">
+						<div class="signup-left">
+							<label for="name">Frist Name</label>
+						</div>
+						
+						<div class="signup-right">
+							<input type="text" name="name" id="name" placeholder="Frist-Name" />
+						</div>
+	
+						<div class="signup-left">
+							<label for="nam">Last Name</label>
+						</div>
+						
+						<div class="signup-right">
+							<input type="text" name="name" id="nam" placeholder="Last-Name" />
+						</div>
+					
+						<div class="signup-left">
+							<label for="address">Address</label>
+						</div>
+						<div class="signup-right">
+							<input type="text" name="address" id="address" placeholder="Enter Your Address" />
+						</div>
+				
+						<div class="signup-left">
+							<label for="mail">Email</label>
+						</div>
+						<div class="signup-right">
+							<input type="email" name="email" id="mail" placeholder="Enter Your Email" />
+						</div>
+						
+					
+						<div class="signup-left">
+							<label for="pass">Password</label>
+						</div>
+						<div class="signup-right">
+							<input type="password" name="password" id="pass" placeholder="Password" />
+						</div>
+					
+						<div class="signup-left">
+							<label for="phone">Phone Number</label>
+						</div>
+						<div class="signup-right">
+							<input type="Phone" name="Phone" id="phone" placeholder="Phone-Number" />
+						</div>
+					
+						<div class="submit">
+							<input type="submit" value="Sign-Up" />
+						</div>
+					</div>
+				</form>
+			</fieldset>
+			
+		</div>
+		<div class="product">
+					<div class="product-img">
+						<abbr title="xiaomi-notebook-8th-gen-i5"><img src="images/Elec/c1.PNG"></abbr>
+					</div>
+					<div class="product-dec">
+						<a href="view-image.html" target="blank">xiaomi-notebook-8th-gen-i5 If that address is correct, here are three other things you can try</a>
+					</div>
+					<div id="price"> 
+						<p>৳70000.00</p>
+					</div>
+					<div id="card">
+						<a href="Loging.html" target="blank">Add To Card</a>
+					</div>
+				</div>
+	</div>
+	<div class="footer-top">
+	<section class="slideshow">
+		<div class="footer-content">
+			<div class="content-carrousel">
+
+				<figure class="shadow"><img src="images/slider/si1.png"></figure>
+				<figure class="shadow"><img src="images/slider/si2.png"></figure>
+				<figure class="shadow"><img src="images/slider/si3.png"></figure>
+				<figure class="shadow"><img src="images/slider/si4.png"></figure>
+				<figure class="shadow"><img src="images/slider/si5.png"></figure>
+				<figure class="shadow"><img src="images/slider/si6.png"></figure>
+				<figure class="shadow"><img src="images/slider/si7.png"></figure>
+				<figure class="shadow"><img src="images/slider/e.png"></figure>
+				<figure class="shadow"><img src="images/slider/si.png"></figure>
+			</div>
+		</div>
+	</section>
+	</div>
+		
+	<div class="footer">
+		<ul>
+			<li><a href="computer.html">COMPUTER</a></li>
+			<li><a href="mobile-tablet.html">MOBILE & TABLET</a></li>
+			<li><a href="electronic.html">ELECTRONIC</a></li>
+			<li><a href="man.html">MEN FASHION</a></li>
+			<li><a href="woman.html">WOMEN FASHION</a></li>
+			<li><a href="beauty.html">BEAUTY & GROOMING</a></li>
+		</ul>
+	</div>
+	<div class="footer-bottom">
+		&copy;Copyright By Md Mehedi Hasan.<br/>
+		(Student Of MIST)
+	</div>
+	<div class="social-icon">
+		<ul>
+			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+			<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="js/scrolltop.js"></script>
+</body>
+</html>
