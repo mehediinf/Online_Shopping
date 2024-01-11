@@ -1,0 +1,43 @@
+@media all and (max-width:1199px){
+	.manu ul li a{
+		padding:15px 25px;
+		font-size:20px;
+	}
+	.product{
+		width:28%;
+	}
+	.footer ul li a{
+		padding:15px 25px;
+		font-size:20px;
+	}
+	.footer-bottom{
+		font-size:20px;
+	}
+}
+@media all and (max-width:991px){
+	.product{
+		width:44%;
+	}
+	.res_menu{
+		display:block;
+	}
+	.manu ul{
+		display:none;
+	}
+	.manu ul li{
+		display:block;
+		font-size:22px;
+	}
+}
+@media all and (max-width:767px){
+	.product{
+		width:93%;
+	}
+	
+}
+@media all and (max-width:574px){
+	.product{
+		width:93%;
+	}
+	
+}
